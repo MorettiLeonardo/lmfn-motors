@@ -54,4 +54,36 @@ $(document).ready(function() {
             scrollTop: destino.offset().top
         }, 1000)
     })
+
+    $('#contato-btn').click(function() {
+        const destino = $('#contato')
+
+        $('html').animate({
+            scrollTop: destino.offset().top
+        }, 1000)
+    })
+
+    $('#sobre').click(function() {
+        const destino = $('#sobre-loja')
+
+        $('html').animate({
+            scrollTop: destino.offset().top
+        }, 1000)
+    })
+
+    $('#emDestaque').click(function() {
+        const destino = $('#destaque')
+
+        $('html').animate({
+            scrollTop: destino.offset().top
+        }, 1000)
+    })
+
+    $('#promocoes').click(function() {
+        const destino = $('#promocoesSection')
+
+        $('html').animate({
+            scrollTop: destino.offset().top
+        }, 1000)
+    })
 })
